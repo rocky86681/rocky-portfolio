@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCKY | Professional Video Editor</title>
+    <meta name="description"
+        content="Portfolio of Rocky, a professional video editor transforming raw footage into visually unforgettable stories.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&family=Syne:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+
+    <!-- Custom Scrollbar & Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <h1 class="glitch" data-text="ROCKY">ROCKY</h1>
+            <p>Loading Creative Experience...</p>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">ROCKY.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <!-- Note: A real implementation might use an autoplaying muted video here -->
+        <div class="hero-bg"></div>
+
+        <div class="hero-content">
+            <h1 class="hero-title reveal-text">ROCKY</h1>
+            <h2 class="hero-subtitle reveal-text delay-1">Professional Video Editor</h2>
+            <p class="hero-intro reveal-text delay-2">Transforming raw footage into visually unforgettable stories.</p>
+
+            <div class="hero-cta reveal-text delay-3">
+                <a href="#work" class="btn btn-primary">
+                    <span class="btn-content">View My Work</span>
+                    <span class="btn-glow"></span>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span class="btn-content">Contact Me</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll to Explore</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-bg-glow"></div>
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper reveal-left">
+                    <div class="image-glow"></div>
+                    <div class="profile-frame">
+                        <!-- Put your image file in the portfolio folder and update the src below (e.g., src="your-photo.jpg") -->
+                        <img src="rocky.jpeg" alt="Rocky - Professional Video Editor" class="profile-img">
+
+                        <!-- Floating Icons -->
+                        <div class="floating-icon icon-1"><i class="ph-fill ph-video-camera"></i></div>
+                        <div class="floating-icon icon-2"><i class="ph-fill ph-film-strip"></i></div>
+                        <div class="floating-icon icon-3"><i class="ph-fill ph-scissors"></i></div>
+                    </div>
+                </div>
+
+                <div class="about-content reveal-right">
+                    <h2 class="section-title">The Mind Behind The <span class="text-gradient">Edit</span></h2>
+                    <div class="glass-card about-card">
+                        <h3 class="about-name">Hi, I'm Rocky</h3>
+                        <p class="about-text">I am a passionate video editor dedicated to crafting cinematic narratives.
+                            With an eye for rhythm and visual storytelling, I bring ideas to life.</p>
+                        <p class="about-text">My creative journey started with a simple camera and a desire to tell
+                            stories. Today, I work with brands, artists, and creators to deliver high-end, premium video
+                            content that captivates audiences.</p>
+
+                        <div class="about-social" style="margin-top: 1.5rem;">
+                            <a href="https://www.instagram.com/_rocky.exe?igsh=ZGdsajFmZGFpcnZh" target="_blank"
+                                style="display: inline-flex; align-items: center; color: var(--accent-blue); font-weight: 600; text-decoration: none; transition: var(--transition); font-size: 1.1rem;">
+                                <i class="ph-fill ph-instagram-logo" style="margin-right: 8px; font-size: 1.5rem;"></i>
+                                @_rocky.exe
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Work Section -->
+    <section id="work" class="work">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">My <span class="text-gradient">Works</span></h2>
+                <p class="section-subtitle">A selection of my best cinematic projects.</p>
+            </div>
+
+
+
+            <div class="work-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal-up" data-category="Movie Edit">
+                    <div class="project-img-container">
+                        <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10;"
+                            src="https://www.youtube.com/embed/eZ7x5r7SVB4?si=oW3K2swIaU4QDdUY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Cinematic Edit</span>
+                        <h3 class="project-title">Master JD Edit using After effects</h3>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card reveal-up delay-1" data-category="commercial">
+                    <div class="project-img-container">
+                        <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10;"
+                            src="https://www.youtube.com/embed/aQDP1GEN3qw?si=4hXeWM2JOIwN349B"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Commercial</span>
+                        <h3 class="project-title">Collage Event Edit using Premiere Pro</h3>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card reveal-up delay-2" data-category="music">
+                    <div class="project-img-container">
+                        <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10;"
+                            src="https://www.youtube.com/embed/nOqbt54oUWE?si=m-sjnVq4GvNC7_MO"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Cinematic</span>
+                        <h3 class="project-title">Cinematic Edit using Premire pro</h3>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card reveal-up delay-3" data-category="commercial">
+                    <div class="project-img-container">
+                        <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10;"
+                            src="https://www.youtube.com/embed/3PQtvPMap4I?si=_XDuwuSYktjkAuMZ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Commercial</span>
+                        <h3 class="project-title">Event Title Annoucement using After effects</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-bg-glow right"></div>
+        <div class="container">
+            <h2 class="section-title text-center reveal-up">My <span class="text-gradient">Arsenal</span></h2>
+
+            <div class="skills-grid">
+                <div class="skill-card glass-card reveal-up">
+                    <div class="skill-icon pr"><i class="ph-fill ph-video-camera"></i></div>
+                    <h3>Premiere Pro</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card glass-card reveal-up delay-1">
+                    <div class="skill-icon ae"><i class="ph-fill ph-magic-wand"></i></div>
+                    <h3>After Effects</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card glass-card reveal-up delay-2">
+                    <div class="skill-icon dv"><i class="ph-fill ph-palette"></i></div>
+                    <h3>DaVinci Resolve</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card glass-card reveal-up">
+                    <div class="skill-icon"><i class="ph-fill ph-aperture"></i></div>
+                    <h3>Color Grading</h3>
+                </div>
+
+                <div class="skill-card glass-card reveal-up delay-1">
+                    <div class="skill-icon"><i class="ph-fill ph-waveform"></i></div>
+                    <h3>Sound Design</h3>
+                </div>
+
+                <div class="skill-card glass-card reveal-up delay-2">
+                    <div class="skill-icon"><i class="ph-fill ph-device-mobile"></i></div>
+                    <h3>Short-form</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline / Journey Section -->
+    <section class="timeline-section">
+        <div class="container">
+            <h2 class="section-title text-center reveal-up">The <span class="text-gradient">Journey</span></h2>
+
+            <div class="timeline">
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Creative Growth</h3>
+                        <p>Expanding into high-end commercials and directing creative projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Cinematic Projects</h3>
+                        <p>Specializing in narrative-driven content and color grading.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Freelance Work</h3>
+                        <p>Collaborating with global brands and artists on varied video campaigns.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Started Editing</h3>
+                        <p>Discovered the passion for storytelling through the lens and timeline.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper glass-card reveal-up">
+                <div class="contact-info">
+                    <h2 class="section-title">Let’s Create Something <span class="text-gradient">Cinematic.</span></h2>
+                    <p>Ready to bring your vision to life? Let's connect and discuss your next project.</p>
+
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/_rocky.exe?igsh=ZGdsajFmZGFpcnZh" target="_blank"
+                            class="social-icon"><i class="ph ph-instagram-logo"></i></a>
+                        <a href="#" class="social-icon"><i class="ph ph-envelope-simple"></i></a>
+                        <a href="#" class="social-icon"><i class="ph ph-linkedin-logo"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Replace YOUR_ACCESS_KEY_HERE with the key you get from web3forms.com -->
+                    <input type="hidden" name="access_key" value="06627caf-935b-4a7b-94b7-5f48c6a1a2d9">
+                    <div class="input-group">
+                        <input type="text" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="input-group">
+                        <textarea name="message" required placeholder="Tell me about your project..."
+                            rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">
+                        <span class="btn-content">Send Message</span>
+                        <span class="btn-glow"></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 ROCKY. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="video-modal">
+        <div class="modal-bg"></div>
+        <div class="modal-content">
+            <button class="close-modal"><i class="ph ph-x"></i></button>
+            <div class="video-container" id="modal-video-container">
+                <!-- Video iframe will be injected here by Javascript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
